@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
-int main (){
-cout<<"toheed";
-return 0;
+int main(){
+	int a,b,c;
+	a=1;
+	b=2;
+	while(a<=10){
+		c=a*b;
+		cout<<b<<"*"<<a<<"="<<c<<endl;
+		a++;
+	}
+	return 0;
 }
